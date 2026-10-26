@@ -1,0 +1,6 @@
+미리보기 방법
+
+1. index.html을 더블 클릭하면 브라우저에서 메인 페이지를 볼 수 있습니다.
+2. 다른 페이지는 about.html, care.html, rooms.html, pricing.html, guide.html, faq.html, reservation.html을 열어 확인합니다.
+3. 사진은 assets/images 폴더에 안내된 이름으로 넣으면 자동으로 표시됩니다.
+4. 예약 폼은 실제 formEndpoint를 설정하기 전에는 데이터를 보내지 않습니다.

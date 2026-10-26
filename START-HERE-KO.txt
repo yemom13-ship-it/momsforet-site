@@ -1,0 +1,9 @@
+맘스포레 GitHub Pages 템플릿 시작하기
+
+1) 이 압축 파일을 먼저 해제하세요.
+2) README-KO.md 파일을 열어 GitHub 업로드와 Pages 배포 순서를 확인하세요.
+3) ZIP 파일 자체가 아니라 압축 안의 HTML/CSS/JS 파일을 GitHub 저장소 루트에 올립니다.
+4) 공개 전에 assets/js/site-config.js, 가격·서비스 내용, 개인정보 안내와 예약 접수 endpoint를 수정/검수해야 합니다.
+5) 이미지 파일명 목록과 수정법도 README-KO.md에 있습니다.
+
+정적 사이트이므로 폼 수신 endpoint를 연결하지 않으면 실제 예약 접수는 되지 않습니다.

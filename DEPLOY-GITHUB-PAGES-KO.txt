@@ -1,0 +1,16 @@
+맘스포레 GitHub Pages 배포 순서
+
+1. momsforet-github-pages-upload.zip을 다운로드하고 압축을 풉니다.
+2. GitHub 로그인 → + → New repository → momsforet-site 생성.
+3. 저장소에서 Add file → Upload files를 선택합니다. ZIP 파일 자체가 아니라 압축을 푼 내부 파일/폴더를 모두 업로드합니다. index.html이 저장소 최상위에 있어야 합니다.
+4. Commit changes로 저장합니다.
+5. 저장소 → Settings → Pages로 들어갑니다.
+6. Build and deployment → Source는 Deploy from a branch, Branch는 main, 폴더는 /(root)로 선택하고 Save합니다.
+7. Pages에 표시된 Visit site URL을 엽니다. 주소는 보통 https://GitHub아이디.github.io/momsforet-site/ 형태입니다.
+8. assets/js/site-config.js에서 siteUrl, 전화번호, 카카오톡 URL, 주소, 운영시간을 수정하고 다시 Commit 합니다.
+9. assets/images/README.txt 및 README-KO.md의 파일명 목록에 맞춰 실제 사진을 assets/images에 올립니다.
+10. 가격·서비스·개인정보 안내를 검토하고, formEndpoint에 폼 수신 URL을 넣은 뒤 테스트 신청을 완료합니다.
+
+중요: 현재 템플릿을 업로드하는 것만으로 예약 신청 정보가 전송되지는 않습니다. 폼 서비스 endpoint를 연결하기 전에는 방문자 신청 내용이 저장/전송되지 않도록 설계되어 있습니다.
+
+공식 안내: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site

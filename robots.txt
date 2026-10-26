@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# 배포 주소가 확정되면 아래 사이트맵 주소의 도메인을 수정하세요.
+Sitemap: https://YOUR-USERNAME.github.io/momsforet-site/sitemap.xml
